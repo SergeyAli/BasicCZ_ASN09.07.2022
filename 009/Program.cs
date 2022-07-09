@@ -3,13 +3,9 @@ int i=1;
 int N=50;
 while(i<=N)
 {
-    if (i%2==0) // четные через цикл
-        {
-        System.Console.Write($"{i} ");
+    System.Console.Write($"{i} ");
     //i++; // все
-    //i=i+2 // четные
-        }
-        i=i+1;
+    i=i+2; // четные
 }
 
 
