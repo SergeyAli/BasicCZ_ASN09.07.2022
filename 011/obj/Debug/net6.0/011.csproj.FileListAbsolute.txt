@@ -1,0 +1,15 @@
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\bin\Debug\net6.0\011.exe
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\bin\Debug\net6.0\011.deps.json
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\bin\Debug\net6.0\011.runtimeconfig.json
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\bin\Debug\net6.0\011.dll
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\bin\Debug\net6.0\011.pdb
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.csproj.AssemblyReference.cache
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.AssemblyInfoInputs.cache
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.AssemblyInfo.cs
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.csproj.CoreCompileInputs.cache
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.dll
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\refint\011.dll
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.pdb
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\011.genruntimeconfig.cache
+E:\GeekBrains\04\BasicCZ_ASN09.07.2022\011\obj\Debug\net6.0\ref\011.dll
