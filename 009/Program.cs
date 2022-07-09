@@ -1,8 +1,14 @@
 ﻿// Вывести на экран четные числа от 1 до N
-int i=100;
-int N=200;
+int i=1;
+int N=50;
 while(i<=N)
 {
-    System.Console.Write($"{i} ");
-    i++;
+    if (i%2==0) // четные через цикл
+        {
+        System.Console.Write($"{i} ");
+    //i++; // все
+    //i=i+2 // четные
+        }
 }
+
+
