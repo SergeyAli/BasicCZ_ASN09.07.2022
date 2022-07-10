@@ -13,6 +13,7 @@ System.Console.WriteLine(k);
 
 int CountDigits(int N)
 {
+    if (N==0) return 1;
     int k=0;
     while(N!=0)
     {
@@ -22,4 +23,4 @@ int CountDigits(int N)
     return k;
 }
 
-System.Console.WriteLine(CountDigits(125));
+System.Console.WriteLine(CountDigits(15));
