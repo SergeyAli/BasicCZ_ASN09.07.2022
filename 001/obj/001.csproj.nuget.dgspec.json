@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\001.csproj": {}
+    "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\001.csproj": {}
   },
   "projects": {
-    "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\001.csproj": {
+    "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\001.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\001.csproj",
+        "projectUniqueName": "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\001.csproj",
         "projectName": "001",
-        "projectPath": "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\001.csproj",
-        "packagesPath": "C:\\Users\\ЛЕВ\\.nuget\\packages\\",
-        "outputPath": "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\obj\\",
+        "projectPath": "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\001.csproj",
+        "packagesPath": "C:\\Users\\BUX\\.nuget\\packages\\",
+        "outputPath": "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ЛЕВ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\BUX\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
