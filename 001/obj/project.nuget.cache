@@ -1,12 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "RzBIASPhOS2g2AtGu8+RWEIzt3EeQWk+zR1lf536vmPrtxWYuYouDGwc3qE8wAOpUqsLaoJS8gtq5ZElQKMIRw==",
-=======
-  "dgSpecHash": "Llsnz9iAcZv5cCU5jBy/RDmUwGJEf5buNs7xT/M2LVsy/hb1NsXw6J/ZdNGoIDUPoJ0KBUWsK/SFyBTI33WmCA==",
->>>>>>> 7e9ed835939a0544e509364cfbea31abc16ffe75
   "success": true,
-  "projectFilePath": "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\001.csproj",
+  "projectFilePath": "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\001.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\BUX\\.nuget\\packages\\": {}
+    "C:\\Users\\ЛЕВ\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\001.csproj",
+      "projectUniqueName": "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\001.csproj",
       "projectName": "001",
-      "projectPath": "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\001.csproj",
-      "packagesPath": "C:\\Users\\BUX\\.nuget\\packages\\",
-      "outputPath": "C:\\GB\\BasicCZ_ASN09.07.2022-1\\001\\obj\\",
+      "projectPath": "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\001.csproj",
+      "packagesPath": "C:\\Users\\ЛЕВ\\.nuget\\packages\\",
+      "outputPath": "E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BUX\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ЛЕВ\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -61,5 +61,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Ошибка чтения файла кэша E:\\GeekBrains\\04\\BasicCZ_ASN09.07.2022\\001\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
