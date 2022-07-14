@@ -28,5 +28,5 @@ if (d)
 }
 else
 {
-    System.Console.WriteLine();
+    System.Console.WriteLine($"{x} некратно 7 и 23");
 }
