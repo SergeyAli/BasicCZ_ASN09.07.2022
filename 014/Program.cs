@@ -6,13 +6,20 @@ int a = Convert.ToInt32(userA);
 Console.Write("Введите число b: ");
 string userB = Console.ReadLine();
 int b = Convert.ToInt32(userB);
-int d;
-d=a%b;
-if (a%b==0)
+if (a==0 ^ b==0)
 {
-    System.Console.WriteLine($"{a} кратно {b}");    
+    System.Console.WriteLine("Введен ноль");
 }
 else
 {
-    System.Console.WriteLine($"{a} некратно {b} остаток от деления {d}");
+int d;
+d=a%b;
+    if (a%b==0)
+    {
+        System.Console.WriteLine($"{a} кратно {b}");    
+    }
+    else
+    {
+        System.Console.WriteLine($"{a} некратно {b} остаток от деления {d}");
+    }
 }
