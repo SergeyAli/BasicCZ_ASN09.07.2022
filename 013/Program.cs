@@ -1,2 +1,32 @@
 ﻿// Удалить вторую цифру целого числа введенного с клавиатуры.
-// отложил из за нехватки времени
+// Вариант 1 Удаление с конца 
+/*
+int n=Convert.ToInt32(Console.ReadLine());
+//int n = 123;
+int d0 = n%10;
+int d1 = n/10%10;
+int d2 = n/100%10;
+int n1 = d2*10+d0;
+//System.Console.WriteLine($"{d0}{d1}{d2}");
+System.Console.WriteLine($"{n1}");
+*/
+// Вариан 2 Удаление с начала
+//int n = 456789;
+int n=Convert.ToInt32(Console.ReadLine());
+int k = DigitsCount(n);
+int n2 = n%(int)Math.Pow(10,k-2);
+int n3 = n/(int)Math.Pow(10,k-1);
+System.Console.WriteLine($"{n3}{n2}");
+
+int DigitsCount(int N) // Подпрограмма
+{
+    if (N==0) return 1;
+    int k=0;
+    while(N!=0)
+    {
+        k++;
+        N=N/10;
+    }
+    return k;
+}
+
