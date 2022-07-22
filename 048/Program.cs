@@ -22,7 +22,7 @@ void Clone(int[] a,out int[] b)
         b[i]=a[i];
 }
 
-void Init(out int[] t, int Length,int min=0,int max=10)
+void Init(out int[] t, int Length,int min=0,int max=10) // подпрограмма создания массива
 {
   t=new int[Length];
   Random random=new Random();
@@ -30,7 +30,7 @@ void Init(out int[] t, int Length,int min=0,int max=10)
     t[i]=random.Next(min,max+1);
 }
 
-void Print(int[] t)
+void Print(int[] t) // подпрограмма вывода на печать
 {
   for(int i=0;i<t.Length;i++)
   System.Console.Write($"{t[i],4} ");
