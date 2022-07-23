@@ -33,7 +33,7 @@ Init(out t,8,max:100);
 Print(t,"t");
 
 
-void Init(out int[] t, int Length,int min=0,int max=10)
+void Init(out int[] t, int Length,int min=0,int max=10) //создаеться массив произвольный 
 {
   t=new int[Length];
   Random random=new Random();
