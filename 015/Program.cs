@@ -29,7 +29,7 @@ string s = Console.ReadLine();
             //Console.ReadLine();
             if (s.Length < 2)
             {
-                System.Console.WriteLine("NO");
+                System.Console.WriteLine("В числе нет третьей цифры");
             }
             else
             {
