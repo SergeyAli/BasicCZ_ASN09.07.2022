@@ -15,6 +15,5 @@ for(int i=0;i<a.Length;i++)
 int s=0;
 for(int i=0;i<a.Length;i++)
     if (i%2!=0)
-        s=s+a[i];
-
-System.Console.WriteLine(s);
+            s=s+a[i];
+System.Console.Write($"\nСумма= {s}");
