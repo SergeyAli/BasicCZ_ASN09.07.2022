@@ -2,14 +2,17 @@
 
 // Алгоритм сортировки массива
 
-double [] arr ={1.1 , 5.3, 4.6, 3, 2.2, 6.6, 7.1, 1.8, 1.9};
+// double [] arr ={1.1 , 5.3, 4.6, 3, 2.2, 6.6, 7.1, 1.8, 1.9};
+double [] arr ={3 , 7, 22, 2, 78};
 
 PrintArray(arr);
 SelectionSort(arr); // вызываем упорядочение массива    
 PrintArray(arr);
 int N = arr.Length; // поиск количества элементов в массиве
 double sum = arr[0] + arr[N-1]; // N-1 т.к. индексы нумеруються с 0
-System.Console.WriteLine($"SUM - {sum} ");
+System.Console.WriteLine($"Сумма между максимальным и минимальным элементом массива- {sum} ");
+double subtract = arr[N-1] - arr[0];
+System.Console.WriteLine($"\nРазница между максимальным и минимальным элементом массива- {subtract} ");
 void PrintArray(double[] array)  // Составим метод вывода на печать , дадим методу название PrintArray
 {
     int count = array.Length;
