@@ -2,40 +2,29 @@
 // Дана квадратная матрица. Проверить, является ли она симметричной относительно
 // главной диагонали.
 
-int N=3;
-
-int [,] a;//описываем массив
-
-a=new int [N,N];//создаем массив
-//Инициализация случайными числами
-Random random=new Random();//Создали объект типа Random
-
-for(int i=0;i<a.GetLength(0);i++)
+int[,] a = new int[,] // Создаем матрицу и заполняем данными
 {
-    for(int j=0;j<a.GetLength(1);j++) 
-    {
-        a[i,j]=random.Next(1,5);
-    }
-}
-
-
+    {0, 1, 2, 4, 6},
+    {1, 1, 3, 5, 7},
+    {2, 3, 0, 9, 8},
+    {4, 5, 9, 1, 1},
+    {6, 7, 8, 1, 0},
+};
 //Вывод массива на экран
 for(int i=0;i<a.GetLength(0);i++)
 {
     for(int j=0;j<a.GetLength(1);j++) System.Console.Write($"{a[i,j]} ");
          System.Console.WriteLine();
 }
-
-//int sum1=0;
-//int sum2=0;
-
+var temp=0; // Переменная для определения выполнения или не выполнения условия
 for (int i = 0; i < a.GetLength(0); i++)
 {
     for(int j=0;j<a.GetLength(1);j++) 
-        if (a[i,j] != a[j,i]) Console.WriteLine($"{a[i,j]} и {a[j,i]} Не семитрична");
-     //sum1=sum1+a[i,i];
-    //sum2=sum2+a[i,N-i-1];   
+        if (a[i,j] != a[j,i]) 
+        temp=1;
+        break;
+        
 }
-//System.Console.WriteLine(sum1);
-//System.Console.WriteLine(sum2);
-Console.WriteLine("Cемитрична");
+if( temp == 1) Console.WriteLine("Не семитрична");
+else
+Console.WriteLine("Cемитрична"); 
