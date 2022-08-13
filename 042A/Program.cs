@@ -7,19 +7,19 @@
 // Во входном файле записано сначала число N, затем записана первая таблица,
 // а после нее - вторая. Элементы таблиц - числа от 0 до 100.
 // 100>=N>=1.
-
+Random random=new Random();//Создали объект типа Random
 int N=3;
 int[,] a;//описываем массив
 int[,] b;//описываем массив
 int[,] c;//описываем массив
 a=InitA(N,N);
-b=InitB(N,N);
-c=InitC(N,N);
+b=InitA(N,N);
+//c=InitA(N,N);
 System.Console.WriteLine("\nТаблица 1");
 Print(a);
 System.Console.WriteLine("\nТаблица 2");
 Print(b);
-Sum(a,b);
+c = Sum(a,b);
 System.Console.WriteLine("\nТаблица суммы 1 и 2 таблице");
 Print(c);
 
@@ -36,57 +36,59 @@ void Print(int[,] a)
 
 int[,] InitA(int N,int M)
 {
-    a=new int[N,M];//создаем массив
-    //Инициализация случайными числами
-    Random random=new Random();//Создали объект типа Random
-
-    for(int i=0;i<a.GetLength(0);i++)
+    int[,] t;
+    t=new int[N,M];//создаем массив
+    for(int i=0;i<t.GetLength(0);i++)
     {
-        for(int j=0;j<a.GetLength(1);j++) 
+        for(int j=0;j<t.GetLength(1);j++) 
         {
-            a[i,j]=random.Next(1,100);
+            t[i,j]=random.Next(1,100);
         }
     }
-    return a;
+    return t;
 }
 
-int[,] InitB(int N,int M)
-{
-    b=new int[N,M];//создаем массив
-    //Инициализация случайными числами
-    Random random=new Random();//Создали объект типа Random
+// int[,] InitB(int N,int M)
+// {
+//     b=new int[N,M];//создаем массив
+//     //Инициализация случайными числами
+//     Random random=new Random();//Создали объект типа Random
 
-    for(int i=0;i<b.GetLength(0);i++)
-    {
-        for(int j=0;j<b.GetLength(1);j++) 
-        {
-            b[i,j]=random.Next(1,100);
-        }
-    }
-    return b;
-}
+//     for(int i=0;i<b.GetLength(0);i++)
+//     {
+//         for(int j=0;j<b.GetLength(1);j++) 
+//         {
+//             b[i,j]=random.Next(1,100);
+//         }
+//     }
+//     return b;
+// }
 
-int[,] InitC(int N,int M)
-{
-    c=new int[N,M];//создаем массив
-    //Инициализация случайными числами
-    Random random=new Random();//Создали объект типа Random
+// int[,] InitC(int N,int M)
+// {
+//     c=new int[N,M];//создаем массив
+//     //Инициализация случайными числами
+//     Random random=new Random();//Создали объект типа Random
 
-    for(int i=0;i<c.GetLength(0);i++)
-    {
-        for(int j=0;j<c.GetLength(1);j++) 
-        {
-            c[i,j]=random.Next(1,100);
-        }
-    }
-    return c;
-}
+//     for(int i=0;i<c.GetLength(0);i++)
+//     {
+//         for(int j=0;j<c.GetLength(1);j++) 
+//         {
+//             c[i,j]=random.Next(1,100);
+//         }
+//     }
+//     return c;
+// }
 //Решить задачу
-void Sum(int[,] a, int[,] b)
+int [,] Sum(int[,] a, int[,] b)
 {
+    int[,] c;//описываем массив
+    c = new int[a.GetLength(0),a.GetLength(1)];
     for(int i=0;i<a.GetLength(0);i++)
     {
         for(int j=0;j<a.GetLength(1);j++) 
         c[i,j] = a[i,j] + b[i,j];
     }
+    return c;
 }
+
