@@ -1,12 +1,12 @@
 ﻿// Написать программу вычисления функции Аккермана - 5*
 
 
-// Console.WriteLine("Введите число n:");
-// var n = Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine("Введите число m:");
-// var m = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число n:");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число m:");
+int m = Convert.ToInt32(Console.ReadLine());
 
-static UInt32 A(uint m, uint n)
+static int A(int m, int n)
 {
   if (m == 0)
     return n + 1;
@@ -17,6 +17,6 @@ static UInt32 A(uint m, uint n)
       return A(m - 1, A(m, n - 1));
 }
 
-System.Console.WriteLine(A(5,0));
+System.Console.WriteLine(A(m,n));
 
 
